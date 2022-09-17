@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     /* width: 1400px; */
+    font-family: Roboto;
 }
 .header {
     /* width: 2000px; */
@@ -35,18 +36,19 @@ ul {
     gap: 30px;
     padding: 10px;
     flex-wrap: wrap;
+    font-size: smaller;
 }
 
 .hero-section {
     background-color: #1F2937;
-    padding: 144px;
+    padding: 100px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .hero-left {
-    width: 550px;
+    width: 500px;
     display: flex;    
     flex-direction: column;
     gap: 10px;
